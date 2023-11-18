@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout com Flexbox - I</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+       
+        header {
+            background-color:#30edcd ;
+            height: 100px;
+        }
+        header h1 {
+            margin-bottom: 1em;
+            text-align: center;
+        }
+
+        footer {
+        background-color : #229683;
+        height: 100px;
+        }
+
+        footer h1 {
+            margin-bottom: 1em;
+            text-align: center;
+
+        }
+        main{
+            display: flex;
+            width: auto; height: 450px;
+        }
+        
+        div {
+            color: #004d40;
+            font-size: 2.5em;
+            padding: 10px;
+            background-color: #f4ff81;
+            width: 150px;
+            height: 150px;
+            margin: 16px;
+        }
+        .flex-conteiner{
+            margin-left: auto; margin-right: auto;
+            
+            display: flex; flex-flow: column wrap; justify-content: center; align-content: center;}
+        div{color: #004d40; font-size: 2.5em; padding: 10px;background-color: #f4ff81; width: 150px; height: 150px; margin: 16px;
+        }
+        article {
+            width: 1100px; height: 450px;
+            background-color: #86f6e4;
+        }
+        aside{
+            width: 700px; height: 450px;
+            background-color: #40a292;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        
+    </header>
+    <main>
+    <article>
+        
+    </article>
+    
+    <aside class="flex-conteiner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+    </aside>
+    </main>
+    <footer>  
+    </footer>
+</body>
+</html

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout II</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        div {
+            display: flex;
+            flex-flow: column;
+            height: 100%;
+            width: 100%;
+        }
+
+        div2 {
+            display: flex;
+            flex-flow: wrap;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            display: flex;
+            height: auto;
+            width: auto;
+
+        }
+
+        header {
+            height: 100px;
+            width: auto;
+            background-color: aquamarine;
+        }
+
+        nav {
+            background-color: antiquewhite;
+            height: 700px;
+            width: 11%;
+        }
+
+        article {
+            background-color: aqua;
+            height: auto;
+            width: 88%;
+        }
+
+        aside {
+            background-color: blueviolet;
+            height: 500px;
+            width: 12%;
+        }
+
+        footer {
+            background-color: brown;
+            height: 100px;
+            width: 88%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav>
+
+    </nav>
+    <div>
+        <header>
+
+        </header>
+        <div2>
+            <article>
+
+            </article>
+            <aside>
+
+            </aside>
+            <footer>
+
+            </footer>
+        </div2>
+    </div>
+</body>
+
+</html>
